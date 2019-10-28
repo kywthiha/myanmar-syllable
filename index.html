@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="myamar_syllabe.js"></script>
 </head>
 <body>
-    <textarea id="from" rows="40" cols="50">
-    </textarea>
-    <textarea id="to" rows="40" cols="50">
-    </textarea>
-    <button id='btnC'>Convert</button>
-    
+        <div class="container">
+        <div class='h1'> JavaScript String Only Tutorial (Burmese Syllae)</div>
+                <div class="row">
+                  <div class="col-sm">
+                        <textarea id="from" rows="20" cols="50">
+                            </textarea>
+                  </div>
+                  <div class="col-sm">
+                        <textarea id="to" rows="20" cols="50">
+                            </textarea>
+                  </div>
+                  
+                </div>
+                <button id='btnC' class='btn btn-success'>Convert</button>
+              </div>
     <script type="text/javascript">
     var from=document.getElementById('from');
     document.getElementById('btnC').onclick=function(){

@@ -1,8 +1,8 @@
 function Kth(text){
 this.text=text;
 this.change=function(){
-    text=this.text.replace(/်္/g,''),
-    text=this.text.replace(/္/g,'်'),
+    text=this.text.replace(/်္/g,'');
+    text=this.text.replace(/္/g,'်');
     len=text.length;
     rule={'a':['က','ခ','ဂ','ဃ','င','စ','ဆ','ဇ','ဈ','ဉ','ည','ဋ','ဌ','ဍ','ဎ','ဏ','တ','ထ','ဒ','ဓ','န','ပ','ဖ','ဗ','ဘ','မ','ယ','ရ','လ','ဝ','သ','ဟ','ဠ','အ','၏','ဣ','ဤ','ဥ','ဦ','ဧ','ဩ','ဪ','ဿ','၌','၍','၎','၏'],'b':['\u103a','္','့']};
     reslist=[]
